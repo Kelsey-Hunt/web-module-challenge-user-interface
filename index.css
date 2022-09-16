@@ -64,7 +64,6 @@ img {
   margin-bottom: 20px;
    /*======= create a background property. Set the value to #F87B99 */
   background: #F87B99;
-  
 }
 
 .container header nav a:hover {
@@ -75,7 +74,7 @@ color: pink;
 }
 
 /*======= Create a selector for the about section to have the following styles:*/
-.about-section {
+section.about {
   margin-top: 20px;
 }
 
@@ -104,7 +103,7 @@ footer {
 footer .footer-content { 
   margin: 0 auto; 
   /*======= create a width property. Set the value to 600px */
-  width: 660px;
+  width: 600px;
   
 }
 
@@ -131,7 +130,7 @@ footer nav a:first-child {
 }
 
 /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:*/
-footer nav a:hover{
+footer a:hover{
   color: white;
 }
 
